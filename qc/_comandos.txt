@@ -1,6 +1,6 @@
 Crear y activar/desactivar el entorno virtual:
 py -m venv qc
-qc\scripts\actívate
+qc\scripts\activate
 qc\scripts\desactivate
 
 Librerias:
@@ -10,6 +10,7 @@ py -m pip install qiskit_aer
 py -m pip install qiskit_ibm_runtime
 py -m pip install matplotlib
 py -m pip install pylatexenc
+py -m pip install galois
 
 Abrir jupyter:
 jupyter lab
